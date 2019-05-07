@@ -1,0 +1,170 @@
+header {
+    position: fixed;
+    padding: 10px;
+    top: 0px;
+    left: 0px;
+}
+
+header div{
+    display: inline;
+}
+
+#name {
+    background-image: url(./resources/header_bgi.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo img {
+    height: 60px;
+
+}
+
+.navigation {
+    display: inline;
+    
+    
+}
+
+.navigation a {
+    color: rgb(0, 4, 7);
+    margin: 45px;
+    font-weight: 900;
+}
+
+
+a {
+    width: 33%;
+    height: 30px;
+    border-style: solid;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Gugi', cursive;
+    text-decoration:none;
+
+            
+}
+
+a:hover {
+    
+}
+
+#campaign_name {
+    
+    width: 1200px;
+    padding-top: 300px;
+    font-size: 110px;
+    text-align: center; /*设置文本水平居中*/
+    padding: 170px 150px;
+    color: rgb(3, 3, 3);
+    font-family: 'Anton', sans-serif;
+    font-weight: 900;
+    background-color: rgba(255, 255, 255, 0.3)
+
+
+
+}
+
+#introduction {
+    background-image: url(./resources/backg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#introduction p {
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+#introduction p:last-child {
+     font-size: 50px;
+     font-family: 'Cute Font', cursive;
+     padding: 100px;
+}
+
+#bg3 {
+    background-image: url(./resources/bg3.jpg);
+    background-size: 500px;
+    background-attachment: fixed;
+}
+
+#joinUs {
+    text-align: center;
+    padding: 70px;
+    font-size: 100px;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.profile img {
+    height: 400px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+#submit button{
+    width: 100px;
+    height: 100px;
+}
+
+#footer p:first-child{
+    text-align: center;
+    font-size: 70px;
+    padding:50px;
+
+}
+
+.member1 {
+    float:left; 
+    clear: both;
+    align: "center";
+    font-size:40px;
+}
+
+.member1 img {
+width: 300px;
+float: left;
+}
+
+.info p {
+    font-size: 30px;
+}
+
+.info input {
+    width: 250px;
+    height: 40px
+}
+
+.info select {
+    width: 250px;
+    height: 40px
+}
+
+#joinUs {
+    text-align: center;
+    padding: 70px;
+    font-size: 100px;
+}
+
