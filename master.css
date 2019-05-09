@@ -75,7 +75,8 @@ a:hover {
     font-size: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 40px;
-    color: rgb(255, 255, 255);
+    color: rgba(5, 5, 5, 0.637);
+    font-weight: 900;
 }
 
 
@@ -129,6 +130,12 @@ ul {
     height: 100px;
 }
 
+#footer {
+    background-image: url(./resources/bg3.jpg);
+    background-size: 500px;
+    background-attachment: fixed;
+}
+
 #footer p:first-child{
     text-align: center;
     font-size: 70px;
@@ -153,13 +160,14 @@ float: left;
 }
 
 .info input {
-    width: 250px;
+    width: 400px;
     height: 40px
 }
 
 .info select {
-    width: 250px;
-    height: 40px
+    width: 400px;
+    height: 70px;
+    font-size: 35px;
 }
 
 #joinUs {
