@@ -1,37 +1,38 @@
+body {
+    
+}
 header {
     position: fixed;
-    padding: 10px;
+    padding: 0px;
     top: 0px;
     left: 0px;
+    width: 200%;
 }
 
-header div{
+header div {
     display: inline;
 }
 
 #name {
-    background-image: url(./resources/header_bgi.jpg);
+    background-image: url(./resources/nordwood.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
 .logo img {
     height: 60px;
-
 }
 
 .navigation {
     display: inline;
-    
-    
 }
 
 .navigation a {
     color: rgb(0, 4, 7);
-    margin: 45px;
+    margin: 100px;
     font-weight: 900;
+    text-align: center;
 }
-
 
 a {
     width: 33%;
@@ -40,55 +41,47 @@ a {
     font-size: 35px;
     text-align: center;
     font-family: 'Gugi', cursive;
-    text-decoration:none;
-
-            
+    text-decoration: none;
 }
 
-a:hover {
-    
-}
+a:hover {}
 
 #campaign_name {
-    
     width: 1200px;
     padding-top: 300px;
     font-size: 110px;
-    text-align: center; /*设置文本水平居中*/
+    text-align: center;
+    /*设置文本水平居中*/
     padding: 170px 150px;
     color: rgb(3, 3, 3);
     font-family: 'Anton', sans-serif;
     font-weight: 900;
-    background-color: rgba(255, 255, 255, 0.3)
-
-
-
+    background-color: rgba(3, 3, 3, 0)
 }
 
 #introduction {
-    background-image: url(./resources/backg2.jpg);
+    background-image: url(./resources/nordwood.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
+
 #introduction p {
     text-align: center;
     font-size: 100px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 40px;
-    color: rgba(5, 5, 5, 0.637);
+    color: rgb(5, 5, 5);
     font-weight: 900;
 }
 
-
 #introduction p:last-child {
-     font-size: 50px;
-     font-family: 'Cute Font', cursive;
-     padding: 100px;
+    font-size: 50px;
+    
+    padding: 100px;
 }
 
 #bg3 {
-    background-image: url(./resources/bg3.jpg);
-    background-size: 500px;
+    background-image: url(./resources/nordwood.jpg);
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -98,14 +91,11 @@ a:hover {
     font-size: 100px;
 }
 
-
 .profile {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
-
 
 .profile img {
     height: 400px;
@@ -122,37 +112,55 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 50px;
+    padding: 60px;
 }
 
-#submit button{
-    width: 100px;
-    height: 100px;
+#submit button {
+    width: 270px;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 3px;
+    background: #1E90FF;
+    cursor: pointer;
+    /* 鼠标移入按钮范围时出现手势 */
+    outline: none;
+    /* 不显示轮廓线 */
+    font-family: Microsoft YaHei;
+    color: white;
+    font-size: 17px;
+    
+}
+
+#submit button:hover {
+    background: #5599FF;
 }
 
 #footer {
-    background-image: url(./resources/bg3.jpg);
-    background-size: 500px;
+    background-image: url(./resources/nordwood.jpg);
+    background-size: cover;
     background-attachment: fixed;
 }
 
-#footer p:first-child{
+#footer p:first-child {
     text-align: center;
     font-size: 70px;
-    padding:50px;
-
+    padding: 50px;
 }
 
 .member1 {
-    float:left; 
+    float: left;
     clear: both;
     align: "center";
-    font-size:40px;
+    font-size: 40px;
+    padding: 30px;
+    background-image: url(./resources/nordwood.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .member1 img {
-width: 300px;
-float: left;
+    width: 150px;
+    float: left;
 }
 
 .info p {
@@ -176,3 +184,50 @@ float: left;
     font-size: 100px;
 }
 
+.member2 {
+    float: left;
+    clear: both;
+    align: "center";
+    font-size: 40px;
+    padding: 30px;
+    background-image: url(./resources/nordwood.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.member2 img {
+    width: 150px;
+    float: left;
+}
+
+.member3 {
+    float: left;
+    clear: both;
+    align: "center";
+    font-size: 40px;
+    padding: 30px;
+    background-image: url(./resources/nordwood.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.member3 img {
+    width: 150px;
+    float: left;
+}
+
+.member4 {
+    float: left;
+    clear: both;
+    align: "center";
+    font-size: 40px;
+    padding: 30px;
+    background-image: url(./resources/nordwood.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.member4 img {
+    width: 150px;
+    float: left;
+}
