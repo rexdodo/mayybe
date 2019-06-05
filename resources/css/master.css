@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 4rem;
     margin-bottom: 50px;
 }
 
@@ -21,6 +21,7 @@ header {
     position: absolute;
     top: 0;
     width: 100%;
+    position: fixed;
 }
 
 #logo {
@@ -29,7 +30,8 @@ header {
 
 #logo img {
     width: 60px;
-    margin: 10px;
+    margin: 20px;
+    height: 40px;
 }
 
 #navigation {
@@ -37,6 +39,12 @@ header {
     display: flex;
     justify-content: space-around;
     
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: 900;
 }
 
 #banner {
@@ -86,7 +94,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20%;
+    padding: 10%;
 }
 .info select{
     width: 100%;
@@ -111,7 +119,7 @@ header {
 #m1{
     align-content: center;
     font-size: 30px;
-    padding: 20px;
+    padding: 40px;
 }
 #m1 img{
     width: 150px;
@@ -120,7 +128,7 @@ header {
 #m2{
     align-content: center;
     font-size: 30px;
-    padding: 20px;
+    padding: 40px;
 }
 #m2 img{
     width: 150px;
@@ -129,7 +137,7 @@ header {
 #m3{
     align-content: center;
     font-size: 30px;
-    padding: 20px;
+    padding: 40px;
 }
 #m3 img{
     width: 150px;
@@ -138,7 +146,7 @@ header {
 #m4{
     align-content: center;
     font-size: 30px;
-    padding: 20px;
+    padding: 40px;
     
 }
 #m4 img{
