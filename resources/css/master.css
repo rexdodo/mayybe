@@ -2,15 +2,13 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    width: 50vh;
 }
 
 h1 {
     font-size: 4rem;
     margin-bottom: 50px;
 }
-
-
-
 
 /*universial rules ends*/
 
@@ -38,9 +36,9 @@ header {
     width: 70%;
     display: flex;
     justify-content: space-around;
-    
 }
-a{
+
+a {
     text-decoration: none;
     font-size: 1rem;
     color: black;
@@ -68,7 +66,6 @@ a{
     line-height: 200%;
 }
 
-
 /* media query */
 
 #signUp {
@@ -82,74 +79,87 @@ a{
     background-size: cover;
     background-attachment: fixed;
 }
-#joinUs{
+
+#joinUs {
     padding: 60px;
     font-size: 4rem;
 }
+
 .info input {
     width: 100%;
     height: 40px;
 }
-#submit{
+
+#submit {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 10%;
 }
-.info select{
+
+.info select {
     width: 100%;
     height: 40px;
-    
 }
-#submit button{
+
+#submit button {
     height: 40px;
     width: 80px;
     font-size: 20px;
 }
-#footer{
+
+#footer {
     background-image: url("../images/Joinus_bg.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
+
 #footer p:first-child {
     text-align: center;
     font-size: 70px;
     padding: 50px;
 }
-#m1{
+
+#m1 {
     align-content: center;
     font-size: 30px;
     padding: 40px;
 }
-#m1 img{
+
+#m1 img {
     width: 150px;
     float: left;
 }
-#m2{
+
+#m2 {
     align-content: center;
     font-size: 30px;
     padding: 40px;
 }
-#m2 img{
+
+#m2 img {
     width: 150px;
     float: left;
 }
-#m3{
+
+#m3 {
     align-content: center;
     font-size: 30px;
     padding: 40px;
 }
-#m3 img{
+
+#m3 img {
     width: 150px;
     float: left;
 }
-#m4{
+
+#m4 {
     align-content: center;
     font-size: 30px;
     padding: 40px;
-    
 }
-#m4 img{
+
+#m4 img {
     width: 150px;
     float: left;
 }
